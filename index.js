@@ -11,6 +11,10 @@ app.get("/health", (req, res) => {
   res.send("<h1>Everything is ok what about you is everything fine</h1>");
 });
 
+app.get("/greet/:name", (req, res) => {
+  res.send(`<h1>Welcome ${req.params.name}</h2>`);
+});
+
 
 if (process.env.NODE_ENV !== "test") {
   app.listen(port, () => {
