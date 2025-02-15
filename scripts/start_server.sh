@@ -12,6 +12,6 @@ export NVM_DIR="$HOME/.nvm"
 
 npm install
 
-node start > index.out.log 2> index.err.log < /dev/null & 
+node index.js > index.out.log 2> index.err.log < /dev/null & 
 
 echo "server is running"
