@@ -12,7 +12,7 @@ app.get("/health", (req, res) => {
 });
 
 app.get("/greet/:name", (req, res) => {
-  res.send(`<h1>Welcome ${req.params.name} how are you </h1>`);
+  res.send(`<h1>Welcome ${req.params.name} how is life</h1>`);
 });
 
 
