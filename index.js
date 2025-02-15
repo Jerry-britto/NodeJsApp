@@ -17,7 +17,7 @@ app.get("/greet/:name", (req, res) => {
 
 app.get("/tea",(req,res)=>{
   res.send("<h1>good choice even I like tea</h1>");
-})
+});
 
 
 if (process.env.NODE_ENV !== "test") {
