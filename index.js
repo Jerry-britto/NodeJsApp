@@ -16,7 +16,7 @@ app.get("/greet/:name", (req, res) => {
 });
 
 app.get("/tea",(req,res)=>{
-  res.send("<h1>good choice even I like tea</h1>");
+  res.send("<h1>good choice even I like tea what about you</h1>");
 });
 
 app.get("/coffee",(req,res)=>{
