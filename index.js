@@ -20,7 +20,7 @@ app.get("/tea",(req,res)=>{
 });
 
 app.get("/coffee",(req,res)=>{
-  res.send("<h1>good choice even I like coffe you won't get sleep have a great day</h1>");
+  res.send("<h1>which is your favourite coffe</h1>");
 });
 
 
