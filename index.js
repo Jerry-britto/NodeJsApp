@@ -19,6 +19,10 @@ app.get("/tea",(req,res)=>{
   res.send("<h1>good choice even I like tea</h1>");
 });
 
+app.get("/coffee",(req,res)=>{
+  res.send("<h1>good choice even I like coffe</h1>");
+});
+
 
 if (process.env.NODE_ENV !== "test") {
   app.listen(port, () => {
