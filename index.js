@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => {
-  res.send("<h1>Everything is ok</h1>");
+  res.send("<h1>Everything is ok what about you is everything fine</h1>");
 });
 
 app.get("/greet/:name", (req, res) => {
